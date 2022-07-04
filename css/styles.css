@@ -509,8 +509,6 @@ img {
 }
 
 .modal {
-  text-align: end;
-  padding: 8px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -525,6 +523,10 @@ img {
   border-radius: 4px;
 }
 .modal-close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
   padding: 6px;
   max-width: 30px;
   max-height: 30px;
